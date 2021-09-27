@@ -85793,7 +85793,7 @@ s=q}while(true)switch(s){case 0:q=3
 m=null
 q=7
 s=10
-return P.I(J.u1($.fJ.bv(),"kappahttp://ip-api.com/json",t.z),$async$r9)
+return P.I(J.u1($.fJ.bv(),"http://ip-api.com/json",t.z),$async$r9)
 case 10:m=b.a
 q=3
 s=9
