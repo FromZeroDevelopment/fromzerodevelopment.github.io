@@ -85787,36 +85787,48 @@ ao(){this.aK()
 Q.a4h()
 D.b4M()
 $.L.z$.push(new E.awN(this))},
-r9(){var s=0,r=P.P(t.z),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f
+r9(){var s=0,r=P.P(t.z),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e
 var $async$r9=P.J(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
-k=t.z
-s=6
-return P.I(J.u1($.fJ.bv(),"http://ip-api.com/json",k),$async$r9)
-case 6:m=b.a
-if(J.b3(J.F(m,"country"))==="Cuba")$.A0=!0
+m=null
+q=7
+s=10
+return P.I(J.u1($.fJ.bv(),"http://ip-api.com/json",t.z),$async$r9)
+case 10:m=b.a
+q=3
+s=9
+break
+case 7:q=6
+f=p
+H.Z(f)
+s=9
+break
+case 6:s=3
+break
+case 9:if(J.b3(J.F(m,"country"))==="Cuba")$.A0=!0
 else $.A0=!1
 $.ug=!0
-case 7:if(!!n.d){s=8
-break}s=9
-return P.I(P.fX(new P.aU(2e5),k),$async$r9)
-case 9:s=7
+j=t.z
+case 11:if(!!n.d){s=12
+break}s=13
+return P.I(P.fX(new P.aU(2e5),j),$async$r9)
+case 13:s=11
 break
-case 8:j=n.c
+case 12:i=n.c
+i.toString
+h=t.X
+K.c0(i,!1).Kb("/home",new E.awO(),null,h)
+i=n.a.c
+if(i!=="/home"){g=n.c
+g.toString
+K.aLq(g,i,h)}if(n.a.c!=="/help"&&!t.C.a($.eV().d6("settings",!1,j)).dR(0,"showed_intro",!1)){j=n.c
 j.toString
-i=t.X
-K.c0(j,!1).Kb("/home",new E.awO(),null,i)
-j=n.a.c
-if(j!=="/home"){h=n.c
-h.toString
-K.aLq(h,j,i)}if(n.a.c!=="/help"&&!t.C.a($.eV().d6("settings",!1,k)).dR(0,"showed_intro",!1)){k=n.c
-k.toString
-K.aLq(k,"/help",i)}q=1
+K.aLq(j,"/help",h)}q=1
 s=5
 break
 case 3:q=2
-f=p
-l=H.Z(f)
+e=p
+l=H.Z(e)
 if(n.c!=null)n.a_(new E.awP(n,l))
 s=5
 break
