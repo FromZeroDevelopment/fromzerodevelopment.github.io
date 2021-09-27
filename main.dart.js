@@ -85793,7 +85793,7 @@ s=q}while(true)switch(s){case 0:q=3
 m=null
 q=7
 s=10
-return P.I(J.u1($.fJ.bv(),"http://ip-api.com/json",t.z),$async$r9)
+return P.I(J.u1($.fJ.bv(),"kappahttp://ip-api.com/json",t.z),$async$r9)
 case 10:m=b.a
 q=3
 s=9
@@ -85805,7 +85805,8 @@ s=9
 break
 case 6:s=3
 break
-case 9:if(J.b3(J.F(m,"country"))==="Cuba")$.A0=!0
+case 9:j=m
+if((j==null?null:J.b3(J.F(j,"country")))==="Cuba")$.A0=!0
 else $.A0=!1
 $.ug=!0
 j=t.z
